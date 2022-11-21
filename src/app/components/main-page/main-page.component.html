@@ -1,0 +1,21 @@
+<div>
+  <input clrInput placeholder="Enter country name" [(ngModel)]="listFilter"/>
+</div>
+
+<div class="clr-row">
+  <div class="clr-col-lg-3 clr-col-15" *ngFor="let country of filteredProducts">
+    <a [routerLink]="['/country', country.name.common]" class="card clickable">
+      <div class="card-block">
+        <h3 class="card-title">{{country.name.common}}</h3>
+        <div class="card-img">
+          <img src="{{country.flags.png}}" alt="Flag image" style="width:200px;height:150px;"/>
+        </div>
+        <div class="card-text">
+          <p>Capital : {{country.capital}}</p>
+          <p>Code : {{country.cca2}}</p>
+          <p>Region : {{country.region}}</p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>

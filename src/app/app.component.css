@@ -1,0 +1,71 @@
+h4 {
+    color: white;
+    vertical-align: center;
+  }
+
+  header {
+    background-color: #002538;
+  }
+
+  .clr-control-container {
+    margin: auto;
+    width: 100%;
+    /* align-self: center;  */
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    top: 100%;
+    right:50%;
+    left:50%;
+  }
+
+
+  .hamburger {
+    display: none;
+  }
+
+  .bars {
+    display: none;
+  }
+
+  #dash {
+    color: aliceblue;
+  }
+
+  @media screen and (max-width: 765px) {
+    #actions {
+      display: none;
+    }
+
+    #dashboard {
+      display: none;
+    }
+
+    .vm-bug {
+      display: none;
+    }
+
+    .mobile-actions {
+    }
+
+    .mobile-actions {
+      display: initial;
+    }
+
+    .title {
+      font-size: 12px;
+      width: 300px;
+    }
+
+    #dash {
+      color: black;
+    }
+  }
+
+  @media screen and (min-width: 766px) {
+    .mobile-actions {
+      display: none;
+    }
+  }
