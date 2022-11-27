@@ -1,5 +1,7 @@
 # Country
 
+Deployed using netlify at https://countrysearchapplication.netlify.app/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
 
 ## Development server
